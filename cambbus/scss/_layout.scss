@@ -1,0 +1,35 @@
+
+header.page-header{
+  background: #e7782f;
+  margin: 0;
+  padding: 20px 0;
+  .header-logo{
+    h1{
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 0 0 20px;
+    }
+  }
+  .authentication{
+    padding: 10px 0 20px;
+  }
+  a{
+    color: #fff;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+}
+
+.page-navigation{
+  nav{
+    border: none;
+    background: #d35400;
+    .navbar-nav a{
+      color: #ffffff;
+    }
+  }
+
+}
